@@ -1,0 +1,136 @@
+{% extends 'main_pioneer/base.html' %}
+{% load static %}
+{% load static i18n %}
+
+{% block content %}
+  <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+  <link rel="stylesheet" href="{% static 'css/message_from_form.css' %}">
+
+  <script src="{% static 'js/jquery-3.5.1.min.js' %}"></script>
+  <script src="{% static '/js/message_from_form.js' %}"></script>
+  <script src="{% static 'js/blog.js' %}"></script>
+
+  <div class="blog">
+    <div class="container">
+      <div class="blog-inner">
+        <h1 class="blog__title title">{% trans 'Блог' %}</h1>
+
+        <div class="blog-top">
+          <div class="blog-top__text">
+            {% blocktrans %} Подпишитесь на ежемесячный  дайджест pioneer.
+            В нем мы рассказываем про последние изменения в законодательстве,
+            даем лайфхаки и много всего полезного. {% endblocktrans %}
+          </div>
+
+          <form action="" class="email-input-inner" method="post">
+            {% csrf_token %}
+            {{ form2 }}
+            <button type="submit" class="email-submit btn-type-one"></button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="blog__items-inner">
+        <!-- <button class='show-filter'>
+          Фильтры и сортировка
+          <img src="{% static 'img/arrow-1.svg' %}" alt="">
+        </button> -->
+        <div class="blog-items">
+
+          {% if "rus" == language %}
+              {% for new in news %}
+              <div class="blog-item">
+                <a href="{{new.url}}new">
+                  <div class="blog-item__text">
+                    <h2 class="blog-item__text-title">
+                      {{new.name}}
+                    </h2>
+                    <p>
+                    </p>
+                  </div>
+
+                  <div class="date">
+                    {{new.date_ru}}
+                  </div>
+                </a>
+              </div>
+              {%endfor%}
+          {% else %}
+              {% for new in news_en %}
+              <div class="blog-item">
+                <a href="{{new.url}}new">
+                  <div class="blog-item__text">
+                    <h2 class="blog-item__text-title">
+                      {{new.name}}
+
+
+                    </h2>
+                    <p>
+
+                    </p>
+                  </div>
+
+                  <div class="date">
+                    {{new.date_ru}}
+                  </div>
+                </a>
+              </div>
+              {%endfor%}
+          {% endif %}
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% if message == 'digest' %}
+  <div class="message">
+    <div class="message__inner">
+      <h2 class="message__title title">{% trans 'Дайджест' %}</h2>
+      <div class="message__items">
+        {% trans 'Спасибо! Вы подписаны на дайджест.' %}
+      </div>
+      <div class="message__btns">
+        <button class="message__btn message__btn-accept btn-type-two">Ок</button>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+
+  <div class="filters" show='false'>
+    <div class="filters__inner">
+      <h2 class="filters__title title">Фильтры и сортировка</h2>
+      <div class="filters__items">
+        <button class="filters__item" active="false">Lorem ipsum</button>
+        <button class="filters__item" active="false">Dolor sit atom</button>
+        <button class="filters__item" active="false">consectetur adipiscing elit</button>
+        <button class="filters__item" active="false">integer egestas</button>
+        <button class="filters__item" active="false">lobortis porta</button>
+        <button class="filters__item" active="false">Proin vitae</button>
+        <button class="filters__item" active="false">integer egestas</button>
+        <button class="filters__item" active="false">Lorem ipsum</button>
+      </div>
+      <div class="blog__btns">
+        <button class="blog__btn blog__btn-accept btn-type-two">принять</button>
+        <button class="blog__btn btn-type-two blog__btn-unaccept">отклонить</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+{% endblock %}
+
+{% block form %}
+<form action="" class="footer__email-input-inner" method="post">
+{% csrf_token %}
+{{ form }}
+<button type="submit" class="footer__email-submit btn-type-one"></button>
+</form>
+{% endblock form %}

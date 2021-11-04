@@ -1,0 +1,89 @@
+{% extends 'main_pioneer/base.html' %}
+{% load static %}
+{% load static i18n %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/contacts.css' %}">
+<link rel="stylesheet" href="{% static 'css/header.css' %}">
+<link rel="stylesheet" href="{% static 'css/message_from_form.css' %}">
+
+<script src="{% static 'js/jquery-3.5.1.min.js' %}"></script>
+<script src="{% static 'js/message_from_form.js' %}"></script>
+<script src="{% static 'js/contacts.js' %}"></script>
+
+<div class="contact-block">
+  <div class="container">
+    <div class="contact-block__inner">
+
+      <div class="contact-block__title">
+        <h2 class="title">{% trans 'Связаться с нами'  %}</h2>
+      </div>
+
+      <div class="contact__form-inner">
+        <form action="" class="contact__form" method="post">
+          {% csrf_token %}
+          {{ form_contacts }}
+          <button class="contact__form-submit btn-type-two" type="submit">{% trans 'Отправить' %}</button>
+        </form>
+
+        <div class="contact-block__title">
+          <h2 class="title">{% trans 'Связаться с нами'  %}</h2>
+        </div>
+
+        <div class="contact__form-aside">
+          <div class="contact__form-aside-copys">
+            <!-- <div class="contact__form-aside-copy contact__form-aside-copy-phone">
+              +7 925 132 19 58
+            </div> -->
+            <div class="contact__form-aside-copy contact__form-aside-copy-email">
+              info@pioneer-it.ru
+            </div>
+          </div>
+          <div class="contact__form-aside-icon">
+            <img src="{% static 'img/contacts_ill.png' %}" alt="">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% if message == 'digest' %}
+<div class="message">
+  <div class="message__inner">
+    <h2 class="message__title title">{% trans 'Дайджест' %}</h2>
+    <div class="message__items">
+      {% trans 'Спасибо! Вы подписаны на дайджест.' %}
+    </div>
+    <div class="message__btns">
+      <button class="message__btn message__btn-accept btn-type-two">Ок</button>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if message == 'contact' %}
+<div class="message">
+  <div class="message__inner">
+    <h2 class="message__title title">{% trans 'Связаться с нами' %}</h2>
+    <div class="message__items">
+      {% trans 'Спасибо за обращение! Мы свяжемся с Вами в течение 24 часов.' %}
+    </div>
+    <div class="message__btns">
+      <button class="message__btn message__btn-accept btn-type-two">Ок</button>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% endblock %}
+
+{% block form %}
+<form action="" class="footer__email-input-inner" method="post">
+{% csrf_token %}
+{{ form }}
+<button type="submit" class="footer__email-submit btn-type-one"></button>
+</form>
+{% endblock form %}

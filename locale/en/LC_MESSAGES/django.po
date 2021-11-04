@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-07 22:30+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\main_pioneer\forms.py:7 .\main_pioneer\forms.py:14
+#: .\templates\main_pioneer\base.html:162
+msgid "Введите ваш email"
+msgstr "Email"
+
+#: .\main_pioneer\forms.py:21
+msgid "ФИО"
+msgstr "Name"
+
+#: .\main_pioneer\forms.py:23
+msgid "Телефон"
+msgstr "Phone number"
+
+#: .\main_pioneer\forms.py:24
+msgid "Компания"
+msgstr "Company"
+
+#: .\main_pioneer\forms.py:25
+msgid "Сообщение"
+msgstr "Message"
+
+#: .\main_pioneer\views.py:55
+msgid "rus"
+msgstr "eng"
+
+#: .\pioneer\settings.py:143
+msgid "Russian"
+msgstr ""
+
+#: .\pioneer\settings.py:144
+msgid "English"
+msgstr ""
+
+#: .\templates\main_pioneer\about_us.html:15
+msgid ""
+"«Двигаются и рождаются формы, и мы делаем новые\n"
+"        и новые открытия. И то, что нами открыто, того не закрыть.\n"
+"        И нелепо наше время вгонять в старые формы минувшего времени.»"
+msgstr ""
+"“Forms are moving and born, and we are making new and new revelations. And "
+"that which is open by us cannot be closed. And it’s ridiculous to fit our "
+"time into old forms of the past”"
+
+#: .\templates\main_pioneer\about_us.html:19
+msgid "Казимир Малевич, «Черный квадрат»"
+msgstr "Kazimir Malevich, “Black Square”"
+
+#: .\templates\main_pioneer\about_us.html:25
+msgid "Инновации,"
+msgstr "Innovative, "
+
+#: .\templates\main_pioneer\about_us.html:26
+msgid "забота и ответственность"
+msgstr "Caring and Responsible"
+
+#: .\templates\main_pioneer\about_us.html:30
+msgid ""
+" Компания pioneer основана в 2020 году в результате новых экономических\n"
+"          и технологических вызовов перед  бизнесом. Изменяя стереотипы о "
+"классической\n"
+"          юридической фирме, команда pioneer открывает новые возможности и "
+"следует\n"
+"          важным принципам защиты интересов клиентов. Такой подход отражен и "
+"в\n"
+"          нашем логотипе, стиль которого следует традициям супрематизма. "
+"Используя\n"
+"          основы цвета и формы, как и художники, мы стремимся изменить "
+"привычные\n"
+"          стандарты поведения не только на практике, но и в умах.' "
+msgstr ""
+"pioneer is founded in 2020, reflecting the economic and technological "
+"challenges the business has encountered. Changing stereotypes of a classic "
+"law firm, pioneer opens new opportunities and follows core principles of "
+"protection of the client’s interests. Trying to make a revolution in "
+"standards and minds, we designed our logo to encompass color and forms’ "
+"essentials in a style that follows a suprematism art movement. "
+
+#: .\templates\main_pioneer\about_us.html:48
+msgid ""
+"Миссия pioneer - трансформация традиционных подходов оказания услуг с "
+"акцентом на  инновациях, заботе и ответственности"
+msgstr ""
+"With that in mind, pioneer is based on the idea to transform the traditional "
+"concept of services into innovative, caring and responsible advice given to "
+"our clients"
+
+#: .\templates\main_pioneer\about_us.html:53
+msgid "Наши принципы"
+msgstr "Our pillars"
+
+#: .\templates\main_pioneer\about_us.html:59
+msgid "Узкоотраслевой подход"
+msgstr "Industry-specific approach"
+
+#: .\templates\main_pioneer\about_us.html:65
+msgid "Инновационные технологичные решения"
+msgstr "Innovative tech solutions"
+
+#: .\templates\main_pioneer\about_us.html:71
+msgid "Правовая и бизнес-экспертиза"
+msgstr "Transactional and business expertise"
+
+#: .\templates\main_pioneer\about_us.html:77
+msgid "Стремление к профессиональному совершенству"
+msgstr "Pursuit of professional excellence"
+
+#: .\templates\main_pioneer\about_us.html:83
+msgid "Командно-ориентированная работа"
+msgstr "Team-oriented work"
+
+#: .\templates\main_pioneer\about_us.html:94
+msgid "Защита окружающей среды"
+msgstr "Green Pledge"
+
+#: .\templates\main_pioneer\about_us.html:98
+msgid ""
+"Наш мир обладает хрупкостью и изящностью фарфора, и только путем общих "
+"усилий его красота и разнообразие могут быть сохранены."
+msgstr ""
+"Our world is a fragile piece of porcelain, and only with the combined efforts "
+"its beauty and diversity may be preserved"
+
+#: .\templates\main_pioneer\about_us.html:101
+msgid ""
+" Для нас “ответственность” - это не только красивое слово.\n"
+"          С момента основания pioneer мы исполнены решимости вести\n"
+"          чистый и зеленый бизнес и бережно относиться к обороту бумаги и "
+"пластика.\n"
+"          Мы будем продолжать интегрировать политику экологической "
+"безопасности\n"
+"          в нашу деятельность и действовать в соответствии с признанными "
+"международными\n"
+"          стандартами. "
+msgstr ""
+"“Responsible” in our motto is not a simple word. At the very start, we are "
+"committed to run a clean and green business by valuing paper and plastic "
+"turnover. We are going to further integrate the environmental sustainability "
+"policies into our operations and act according to the internationally "
+"recognized standards"
+
+#: .\templates\main_pioneer\about_us.html:109
+msgid ""
+"Мы надеемся, что наш пример вдохновит вас на то, чтобы сделать этот мир "
+"поистине лучше."
+msgstr ""
+"We hope you will be inspired by our example to make this world a truly "
+"better place"
+
+#: .\templates\main_pioneer\about_us.html:120
+#: .\templates\main_pioneer\blog.html:69
+#: .\templates\main_pioneer\contacts.html:56
+#: .\templates\main_pioneer\index.html:213
+#: .\templates\main_pioneer\services.html:90
+msgid "Дайджест"
+msgstr "Digest"
+
+#: .\templates\main_pioneer\about_us.html:122
+#: .\templates\main_pioneer\article.html:43
+#: .\templates\main_pioneer\blog.html:71
+#: .\templates\main_pioneer\contacts.html:58
+#: .\templates\main_pioneer\index.html:215
+#: .\templates\main_pioneer\services.html:92
+msgid "Спасибо! Вы подписаны на дайджест."
+msgstr "Thank you! You are subscribed to the digest."
+
+#: .\templates\main_pioneer\base.html:41
+msgid "/"
+msgstr "/en"
+
+#: .\templates\main_pioneer\base.html:52 .\templates\main_pioneer\base.html:103
+#: .\templates\main_pioneer\base.html:170
+msgid "О нас"
+msgstr "Our Story"
+
+#: .\templates\main_pioneer\base.html:55 .\templates\main_pioneer\base.html:106
+#: .\templates\main_pioneer\base.html:179
+#: .\templates\main_pioneer\index.html:20
+#: .\templates\main_pioneer\services.html:15
+msgid "Услуги"
+msgstr "Expertise"
+
+#: .\templates\main_pioneer\base.html:58 .\templates\main_pioneer\base.html:109
+#: .\templates\main_pioneer\base.html:176
+msgid "Блог"
+msgstr "Insights"
+
+#: .\templates\main_pioneer\base.html:61 .\templates\main_pioneer\base.html:118
+#: .\templates\main_pioneer\contacts.html:19
+#: .\templates\main_pioneer\contacts.html:30
+#: .\templates\main_pioneer\contacts.html:70
+msgid "Связаться с нами"
+msgstr "Contact"
+
+#: .\templates\main_pioneer\base.html:78 .\templates\main_pioneer\base.html:112
+#: .\templates\main_pioneer\base.html:173
+msgid "Команда"
+msgstr "Team"
+
+#: .\templates\main_pioneer\base.html:81 .\templates\main_pioneer\base.html:115
+#: .\templates\main_pioneer\base.html:182
+msgid "Истории наших клиентов"
+msgstr "Stories of Our Clients"
+
+#: .\templates\main_pioneer\base.html:144
+msgid "Подписаться на дайджест"
+msgstr "Subscribe"
+
+#: .\templates\main_pioneer\base.html:185
+msgid "Контакты"
+msgstr "Contacts"
+
+#: .\templates\main_pioneer\base.html:207
+#: .\templates\main_pioneer\base.html:210
+msgid "Обработка персональных данных"
+msgstr "Website Terms and Conditions of Use"
+
+#: .\templates\main_pioneer\base.html:208
+#: .\templates\main_pioneer\base.html:211
+msgid "Политика конфиденциальности"
+msgstr "Privacy Policy"
+
+#: .\templates\main_pioneer\blog.html:20
+msgid ""
+" Подпишитесь на ежемесячный  дайджест pioneer.\n"
+"            В нем мы рассказываем про последние изменения в "
+"законодательстве,\n"
+"            даем лайфхаки и много всего полезного. "
+msgstr ""
+"Subscribe to our monthly digest. We sum up the latest changes in "
+"legislation, provide life hacks and other useful materials. "
+
+#: .\templates\main_pioneer\contacts.html:26
+msgid "Отправить"
+msgstr "Send"
+
+#: .\templates\main_pioneer\contacts.html:72
+msgid "Спасибо за обращение! Мы свяжемся с Вами в течение 24 часов."
+msgstr "Thank you! We will contact you within 24 hours."
+
+#: .\templates\main_pioneer\index.html:16
+msgid "Инновации, забота и ответственность"
+msgstr "Innovative, Caring and Responsible "
+
+#: .\templates\main_pioneer\index.html:17
+msgid ""
+"В pioneer мы оказываем стартапам и инвесторам широкий спектр юридических и "
+"рекрутинговых услуг с использованием современных технологий"
+msgstr ""
+"At pioneer, we assist startups, entrepreneurs  and investors at business "
+"transactions by providing legal advice using the "
+"cutting-edge technology"
+
+#: .\templates\main_pioneer\index.html:35
+msgid "Новости"
+msgstr "Trending"
+
+#: .\templates\main_pioneer\index.html:102
+msgid "Мы предоставляем услуги"
+msgstr "We are giving legal "
+
+#: .\templates\main_pioneer\index.html:103
+msgid "по юридическому консультированию бизнес-проектов"
+msgstr "scrutiny of your business ideas"
+
+#: .\templates\main_pioneer\index.html:108
+msgid "Для стартапа на всех этапах развития"
+msgstr "For startup"
+
+#: .\templates\main_pioneer\index.html:117
+msgid "Запуск"
+msgstr "Launching a startup"
+
+#: .\templates\main_pioneer\index.html:118
+msgid "Регистрация компании, подготовка корпоративных и трудовых документов"
+msgstr ""
+"Company registration in optimal jurisdiction, corporate and labor agreements "
+"preparation"
+
+#: .\templates\main_pioneer\index.html:127
+msgid "Взаимодействие с заказчиками и подрядчиками"
+msgstr "Interaction with customers and contractors"
+
+#: .\templates\main_pioneer\index.html:129
+msgid "Подготовка и аудит договоров, исходя из специфики бизнеса"
+msgstr ""
+"Preparation and audit of contracts based on the specifics of the business"
+
+#: .\templates\main_pioneer\index.html:139
+msgid "Взаимодействие с инвестором"
+msgstr "Legal support at all stages of the venture transaction"
+
+#: .\templates\main_pioneer\index.html:140
+msgid "Юридическое сопровождение на  всех этапах сделки"
+msgstr "Legal support at all stages of the venture transaction"
+
+#: .\templates\main_pioneer\index.html:149
+#: .\templates\main_pioneer\services.html:68
+msgid "Разрешение споров"
+msgstr "Dispute Resolution"
+
+#: .\templates\main_pioneer\index.html:150
+msgid "Защита интересов стартапа в суде и иных органах"
+msgstr "Protection of startup’s Interests before the courts and other bodies"
+
+#: .\templates\main_pioneer\index.html:156
+msgid "Для инвестора на всех этапах развития"
+msgstr "For investor"
+
+#: .\templates\main_pioneer\index.html:165
+msgid "Сопровождение инвестиционных сделок"
+msgstr "Legal support of venture transactions"
+
+#: .\templates\main_pioneer\index.html:166
+msgid ""
+"Юридическая поддержка в рамках проведения венчурных сделок: от соглашения о "
+"намерениях до закрытия сделки"
+msgstr ""
+"Due diligence of target companies, drafting agreements and legal "
+"opinions"
+
+#: .\templates\main_pioneer\index.html:175
+msgid "Сопровождение и создание фондов"
+msgstr "Establishment and legal support of funds"
+
+#: .\templates\main_pioneer\index.html:176
+msgid "Выбор юрисдикции, подготовка документов, сопровождение сделок"
+msgstr ""
+"Identification of optimal jurisdiction, documents preparation and legal "
+"support of transactions"
+
+#: .\templates\main_pioneer\index.html:191
+msgid "Платформa"
+msgstr "Platform"
+
+#: .\templates\main_pioneer\index.html:194
+msgid ""
+" Многофункциональный комплекс, сочетающий в себе инновационные\n"
+"        технологические решения и лучшие практики в целях оптимизации\n"
+"        работы компании "
+msgstr ""
+"A place where innovation and best practices meet to simplify your day-to-day "
+"operations"
+
+#: .\templates\main_pioneer\index.html:203
+msgid ""
+" pioneer также реализует проекты на pro bono основе, а также проекты,\n"
+"        представляющие общественный интерес "
+msgstr "pioneer also participates in pro bono and public service activities"
+
+#: .\templates\main_pioneer\index.html:228
+msgid "Наш сайт использует cookie файлы. Узнать подробнее можно по"
+msgstr "Our website uses cookies. You can find out more"
+
+#: .\templates\main_pioneer\index.html:231
+#: .\templates\main_pioneer\index.html:233
+msgid "ссылке"
+msgstr "here"
+
+#: .\templates\main_pioneer\index.html:239
+msgid "принять"
+msgstr "ACCEPT"
+
+#: .\templates\main_pioneer\index.html:240
+msgid "отклонить"
+msgstr "DECLINE"
+
+#: .\templates\main_pioneer\services.html:16
+msgid ""
+" Мы консультируем наших клиентов по широкому перечню правовых вопросов,\n"
+"              возникающих в ходе существования проекта, и оперативной "
+"деятельности "
+msgstr ""
+"We are committed to guiding our clients throughout the life cycle of the "
+"project and the company itself from a legal perspective"
+
+#: .\templates\main_pioneer\services.html:25
+msgid ""
+" Узкоотраслевой подход позволяет нам концентрироваться на тех вопросах,\n"
+"             которые волнуют наших клиентов - основателей стартапов и "
+"инвесторов "
+msgstr ""
+"The industry-specific approach makes us concentrate on the issues and "
+"questions that greatly matters for our clients - startups and investors"
+
+#: .\templates\main_pioneer\services.html:36
+msgid "Корпоративное право и венчурные сделки"
+msgstr "Corporate and Venture Transactions"
+
+#: .\templates\main_pioneer\services.html:44
+msgid "Интеллектуальная собственность и защита данных"
+msgstr "IP & Data Protection"
+
+#: .\templates\main_pioneer\services.html:52
+msgid "Юридическое сопровождение выхода на азиатские рынки"
+msgstr "Launching Business in Asia: Legal Support"
+
+#: .\templates\main_pioneer\services.html:60
+msgid "Трудовое право"
+msgstr "Labor"
+
+#: .\templates\main_pioneer\services.html:76
+msgid "Частные клиенты"
+msgstr "Private Clients"
+
+#: .\templates\main_pioneer\services.html:81
+msgid ""
+" Мы готовы оказать юридическую помощь на безвозмездной основе стартапам и их "
+"основателям.\n"
+"          Решение о безвозмездной основе мы принимаем в индивидуальном "
+"порядке. "
+msgstr ""
+"We are willing to give legal advice to startups and their founders free of "
+"charge. Such a decision is adopted on a case-by-case basis"

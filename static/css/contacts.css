@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+.contact-block__inner{
+  width: 100%;
+  padding: 125px 70px 120px 70px;
+}
+
+.contact__form-inner{
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.contact__form-inner .contact-block__title{
+  display: none;
+}
+
+.contact__form{
+  width: 500px;
+}
+
+.contact__form-input{
+  width: 100%;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Fira Sans', sans-serif;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+#contact__form-message{
+  height: 185px;
+  resize: none;
+}
+
+.contact__form-input::placeholder{
+  line-height: 16px;
+  color: #000;
+  font-weight: 400;
+}
+
+.contact__form-submit::before{
+  border: none;
+}
+
+.contact__form-aside{
+  margin-left: 100px;
+  max-width: 375px;
+}
+
+.contact__form-aside{
+  position: relative;
+  align-self: flex-end;
+}
+
+.contact__form-aside-icon img{
+  max-width: 100%;
+}
+
+.contact__form-aside-copy{
+
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding-left: 40px;
+}
+.contact__form-aside-copy::before{
+  content: '';
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.contact__form-aside-copy-phone::before{
+  background-image: url('../img/phone-contact.svg')
+
+}
+.contact__form-aside-copy-email::before{
+  background-image: url('../img/mail-contact.svg')
+
+}
+
+@media screen and (max-width: 1280px){
+  .contact__form{
+    width: 415px;
+  }
+}
+
+@media screen and (max-width: 992px){
+
+  .contact-block__inner{
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .contact__form-aside{
+    align-self: center;
+    margin-left: 75px;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+  .contact-block__inner{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .contact__form{
+    width: 368px;
+  }
+  .contact__form-aside{
+    max-width: 270px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 625px){
+  .contact-block__title{
+    display: none;
+  }
+
+  .contact__form-inner{
+    padding-top: 0px;
+    flex-wrap: wrap-reverse;
+  }
+  .contact__form-inner .contact-block__title{
+    padding: 50px 0;
+    display: block;
+  }
+  .contact__form{
+    min-width: 100%;
+  }
+  .contact__form-aside{
+    margin-left: 0;
+    min-width: 100%;
+  }
+  .contact__form-aside-icon{
+    z-index: -1;
+    margin-top: -112px;
+    max-width: 75%;
+    margin-left: auto;
+  }
+}

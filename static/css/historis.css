@@ -1,0 +1,148 @@
+
+.historis{
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.historis__items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+
+.historis__item{
+  transition-duration: 1s;
+  width: calc( (100% - 15px) / 2);
+  padding: 30px 15px;
+}
+.historis__item p{
+  font-size: 16px;
+  font-weight: 400;
+}
+.historis__item span{
+  display: block;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.historis__item-invisible{
+  height: 0;
+  overflow: hidden;
+  transition-duration: .5s;
+
+}
+
+.historis__item--open .historis__item-invisible{
+  height: auto;
+}
+
+.historis__item-bottom{
+  display: flex;
+  justify-content: space-between;
+
+}
+.historis__item-bottom-line{
+  width: calc(100% - 60px);
+  height: 3px;
+  align-self: center;
+  background-color: #385ca5;
+}
+.histori-2 .historis__item-bottom-line{
+  background-color: #fcc230;
+}
+.histori-3 .historis__item-bottom-line{
+  background-color: #8cccae;
+}
+.histori-4 .historis__item-bottom-line{
+  background-color: #ed565c;
+}
+.histori-5 .historis__item-bottom-line{
+  background-color: #8d8d8d;
+}
+.histori-6 .historis__item-bottom-line{
+  background-color: #385ca5;
+}
+.historis__item-bottom-btn{
+  transition-duration: .6s;
+  padding: 3px 0;
+  border: 2px solid #385ca5;
+}
+.histori-2 .historis__item-bottom-btn{
+  border: 2px solid #fcc230;
+}
+.histori-3 .historis__item-bottom-btn{
+  border: 2px solid #8cccae;
+}
+.histori-4 .historis__item-bottom-btn{
+  border: 2px solid #ed565c;
+}
+.histori-5 .historis__item-bottom-btn{
+  border: 2px solid #8d8d8d;
+}
+.histori-6 .historis__item-bottom-btn{
+  border: 2px solid #385ca5;
+}
+.historis__item-bottom-btn svg{
+  display: block
+  margin: auto;
+  height: 25px;
+  fill: #385ca5;
+  stroke: #385ca5;
+}
+.histori-2 .historis__item-bottom-btn svg{
+  fill: #fcc230;
+  stroke: #fcc230;
+}
+.histori-3 .historis__item-bottom-btn svg{
+  fill: #8cccae;
+  stroke: #8cccae;
+}
+.histori-4 .historis__item-bottom-btn svg{
+  fill: #ed565c;
+  stroke: #ed565c;
+}
+.histori-5 .historis__item-bottom-btn svg{
+  fill: #8d8d8d;
+  stroke: #8d8d8d;
+}
+.histori-6 .historis__item-bottom-btn svg{
+  fill: #385ca5;
+  stroke: #385ca5;
+}
+
+.historis__item--open button{
+  transform: rotate(180deg);
+  background-color: #385ca5;
+}
+.historis__item--open .histori-2 .historis__item-bottom-btn{
+  background-color: #fcc230;
+}
+.historis__item--open .histori-3 .historis__item-bottom-btn{
+  background-color: #8cccae;
+}
+.historis__item--open .histori-4 .historis__item-bottom-btn{
+  background-color: #ed565c;
+}
+.historis__item--open .histori-5 .historis__item-bottom-btn{
+  background-color: #8d8d8d;
+}
+.historis__item--open .histori-6 .historis__item-bottom-btn{
+  background-color: #385ca5;
+}
+.historis__item--open  svg{
+  fill: #fff!important;
+}
+
+
+@media screen and (max-width: 1280px){
+  .historis__item{
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .historis__item{
+    width: 100%;
+  }
+}

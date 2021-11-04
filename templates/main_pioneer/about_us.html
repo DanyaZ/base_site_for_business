@@ -1,0 +1,139 @@
+{% extends 'main_pioneer/base.html' %}
+{% load static i18n %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/about_us.css' %}">
+<link rel="stylesheet" href="{% static 'css/message_from_form.css' %}">
+<script src="{% static 'js/jquery-3.5.1.min.js' %}"></script>
+<script src="{% static 'js/message_from_form.js' %}"></script>
+
+<div class="about-us">
+  <div class="container">
+    <div class="about-us__quote">
+      <p class="about-us__quote-text">
+        {% blocktrans %}«Двигаются и рождаются формы, и мы делаем новые
+        и новые открытия. И то, что нами открыто, того не закрыть.
+        И нелепо наше время вгонять в старые формы минувшего времени.»{% endblocktrans %}
+      </p>
+      <div class="about-us__quote-author">{% trans 'Казимир Малевич, «Черный квадрат»' %}</div>
+    </div>
+
+    <div class="about-us__top">
+      <div class="about-us__top-text">
+        <h1 class="about-us__top-text-title title">
+          {% trans 'Инновации,' %} <br>
+          {% trans 'забота и ответственность' %}
+        </h1>
+
+        <p>
+          {% blocktrans %} Компания pioneer основана в 2020 году в результате новых экономических
+          и технологических вызовов перед  бизнесом. Изменяя стереотипы о классической
+          юридической фирме, команда pioneer открывает новые возможности и следует
+          важным принципам защиты интересов клиентов. Такой подход отражен и в
+          нашем логотипе, стиль которого следует традициям супрематизма. Используя
+          основы цвета и формы, как и художники, мы стремимся изменить привычные
+          стандарты поведения не только на практике, но и в умах.' {% endblocktrans %}
+        </p>
+      </div>
+      <div class="about-us__top-icon">
+        <img class="small-hide" src="{% static 'img/about-us-top-icon.png' %}" alt="">
+        <img class="small-show" src="{% static 'img/about-us-top-icon-2.png' %}" alt="">
+
+      </div>
+    </div>
+
+<!--    <div class="about-us__title">-->
+<!--      <h2>-->
+<!--        {% trans 'Миссия pioneer - трансформация традиционных подходов оказания услуг с акцентом на  инновациях, заботе и ответственности' %}-->
+<!--      </h2>-->
+<!--    </div>-->
+
+    <div class="about-us__items-inner">
+      <h2 class="about-us__items-title title"> {% trans 'Наши принципы' %}</h2>
+      <div class="about-us__items">
+        <div class="about-us__item">
+          <div class="about-us__item-icon">
+            <img src="{% static 'img/about-us-icon-1.png' %}" alt="">
+          </div>
+          {% trans 'Узкоотраслевой подход' %}
+        </div>
+        <div class="about-us__item">
+          <div class="about-us__item-icon">
+            <img src="{% static 'img/about-us-icon-2.png' %}" alt="">
+          </div>
+          {% trans 'Инновационные технологичные решения' %}
+        </div>
+        <div class="about-us__item">
+          <div class="about-us__item-icon">
+            <img src="{% static 'img/about-us-icon-3.png' %}" alt="">
+          </div>
+          {% trans 'Правовая и бизнес-экспертиза' %}
+        </div>
+        <div class="about-us__item">
+          <div class="about-us__item-icon">
+            <img src="{% static 'img/about-us-icon-4.png' %}" alt="">
+          </div>
+          {% trans 'Стремление к профессиональному совершенству' %}
+        </div>
+        <div class="about-us__item">
+          <div class="about-us__item-icon">
+            <img src="{% static 'img/about-us-icon-5.png' %}" alt="">
+          </div>
+          {% trans 'Командно-ориентированная работа' %}
+        </div>
+      </div>
+    </div>
+
+<!--    <div class="about-us__bottom">-->
+<!--      <div class="about-us__bottom-icon">-->
+<!--        <img src="{% static 'img/about-us-bottom-icon.png' %}" alt="">-->
+<!--      </div>-->
+<!--      <div class="about-us__bottom-text">-->
+<!--        <h2 class="about-us__bottom-text-title title">-->
+<!--          {% trans 'Защита окружающей среды' %}-->
+<!--        </h2>-->
+
+<!--        <p>-->
+<!--          {% trans 'Наш мир обладает хрупкостью и изящностью фарфора, и только путем общих усилий его красота и разнообразие могут быть сохранены.' %}-->
+<!--        </p>-->
+<!--        <p>-->
+<!--          {% blocktrans %} Для нас “ответственность” - это не только красивое слово.-->
+<!--          С момента основания pioneer мы исполнены решимости вести-->
+<!--          чистый и зеленый бизнес и бережно относиться к обороту бумаги и пластика.-->
+<!--          Мы будем продолжать интегрировать политику экологической безопасности-->
+<!--          в нашу деятельность и действовать в соответствии с признанными международными-->
+<!--          стандартами. {% endblocktrans %}-->
+<!--        </p>-->
+<!--        <p>-->
+<!--          {% trans 'Мы надеемся, что наш пример вдохновит вас на то, чтобы сделать этот мир поистине лучше.' %}-->
+<!--        </p>-->
+<!--      </div>-->
+
+<!--    </div>-->
+  </div>
+</div>
+
+{% if message == 'digest' %}
+<div class="message">
+  <div class="message__inner">
+    <h2 class="message__title title">{% trans 'Дайджест' %}</h2>
+    <div class="message__items">
+      {% trans 'Спасибо! Вы подписаны на дайджест.' %}
+    </div>
+    <div class="message__btns">
+      <button class="message__btn message__btn-accept btn-type-two">Ок</button>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% endblock %}
+
+{% block form %}
+<form action="" class="footer__email-input-inner" method="post">
+{% csrf_token %}
+{{ form }}
+<button type="submit" class="footer__email-submit btn-type-one"></button>
+</form>
+{% endblock form %}

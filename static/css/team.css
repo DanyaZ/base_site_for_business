@@ -1,0 +1,179 @@
+
+.team__inner{
+  margin-top: 35px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__text{
+  width: 57.2%;
+  -ms-align-self: center;
+  align-self: center;
+}
+
+.team__icon{
+  width: 36.4%;
+}
+.team__icon img{
+  width: 100%;
+}
+
+.team__founder-title{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.team__founder-items{
+  margin-bottom: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.team__founder-item{
+  width: calc(50% - 15px);
+  padding: 0 30px;
+  text-align: center;
+}
+.founder__icon, .council__item-icon{
+  background-color: #dddede;
+  margin: 0 auto 50px auto;
+  width: 188px;
+  height: 183px;
+}
+.founder__text-name, .council__item-text-name{
+  font-size: 20px;
+  font-weight: 500;
+}
+.founder__text-prof, .council__item-text-prof{
+  font-weight: 500;
+  margin: 10px auto 5px auto;
+}
+.founder__text-info, .council__item-text-info{
+  font-weight: 400;
+}
+
+.council__title{
+  text-align: center;
+  margin-bottom: 55px;
+}
+.council__items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.council__item{
+  width: 30%;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1440px){
+
+  .team__text{
+    width: 55.8%;
+  }
+}
+
+@media screen and (max-width: 1280px){
+  .team__inner{
+  }
+  .team__text{
+    width: 54.2%;
+  }
+
+  .team__founder-item{
+    width: calc(50% - 40px);
+    padding: 0 0;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .team__inner{
+    margin-top: 100px;
+    margin-bottom: 95px;
+
+  }
+  .team__text{
+    width: 50%;
+  }
+  .team__icon{
+    width: 38%;
+  }
+
+  .council__items{
+    margin-bottom: -20px;
+  }
+  .team__founder-item, .council__item{
+    width: calc(50% - 30px);
+    margin-bottom: 120px;
+  }
+  .team__founder-items{
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .team__inner{
+    margin-top: 85px;
+    margin-bottom: 85px;
+  }
+  .team__text{
+    width: 58%;
+  }
+  .team__icon{
+    width: 38%;
+  }
+  .team__founder-item{
+    width: calc(50% - 15px);
+  }
+
+  .council__items{
+    margin-bottom: 0;
+  }
+  .council__item{
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .team__inner{
+    margin-top: 75px;
+    margin-bottom: 100px;
+    flex-wrap: wrap-reverse;
+  }
+  .team__text{
+    width: 100%;
+  }
+  .team__icon{
+    margin-bottom: 70px;
+    width: 70%;
+    margin-left: auto;
+  }
+
+
+  .team__founder-title, .council__title{
+    text-align: left;
+  }
+  .team__founder-items{
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  .team__founder-item, .council__item{
+    width: 100%;
+    text-align: left;
+    margin-bottom:  75px;
+  }
+  .council__item{
+    padding: 0 0;
+  }
+  .founder__icon, .council__item-icon{
+    width: 100%;
+    height: calc(100vw - 50px);
+  }
+
+  .council__item-text-info{
+    font-size: 14px;
+  }
+
+}

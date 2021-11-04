@@ -1,0 +1,273 @@
+a.new_a{
+    background-color: #3360a8;
+}
+
+.blog-top{
+  margin-top: 65px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-top__text{
+  width: 62%;
+  font-size: 16px;
+  margin-right: 65px;
+}
+
+.blog__title{
+  margin-top: 90px;
+}
+.email-title{
+  align-self: center;
+}
+
+.email-title h2{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.email-input-inner{
+  align-self: center;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.email-input{
+  width: 100%;
+}
+.email-submit{
+  transform: rotate(-90deg);
+  width: 35px;
+  height: 35px;
+  padding: 0;
+
+  background-image: url(../img/arrow-2.svg);
+  background-color: #b2ddc9;
+  background-size: 15px 15px;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  margin-left: 10px;
+}
+.email-input-inner-phone{
+  display: none;
+}
+
+.email-input{
+  height: 35px;
+  background-color: #fff;
+  padding-left: 20px;
+  border: 2px solid #8d8d8d;
+}
+
+.blog__items-inner button{
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 30px;
+  display: block;
+}
+.blog__items-inner button img{
+  width: 15px;
+  height: 100%;
+  margin-bottom: -3px;
+}
+
+.blog-items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.blog-item{
+  padding: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+  width: 31%;
+  transition-duration: .6s;
+  cursor: pointer;
+}
+.blog-item:nth-child(1n){
+  border: 3px solid #3360a8;
+}
+.blog-item:nth-child(2n){
+  border: 3px solid #fcc230;
+}
+.blog-item:nth-child(3n){
+  border: 3px solid #8cccae;
+}
+.blog-item:nth-child(4n){
+  border: 3px solid #ed565c;
+}
+.blog-item:nth-child(5n){
+  border: 3px solid #8d8d8d;
+}
+.blog-item:nth-child(6n){
+  border: 3px solid #3360a8;
+}
+.blog-item:nth-child(7n){
+  border: 3px solid #fcc230;
+}
+.blog-item:nth-child(8n){
+  border: 3px solid #8cccae;
+}
+.blog-item:nth-child(9n){
+  border: 3px solid #ed565c;
+}
+.blog-item:hover{
+  background-color: #3360a8;
+  color: #fff;
+  border-color: #3360a8;
+
+}
+.blog-item  a{
+  height: 100%;
+  position: relative;
+}
+.blog-item:hover .date{
+  color: #fff;
+}
+.blog-item__text p{
+  font-size: 16px;
+  margin-bottom: 90px;
+}
+.blog-item__text-title{
+  font-size: 20px;
+}
+.blog-item .date{
+  color: #989898;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+.filters{
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  padding-top: 20vh;
+  z-index: 999;
+  background: rgba(0,0,0,.3);
+  display: none;
+  position: fixed;
+
+  left: 0;
+  right: 0;
+}
+.filters__inner{
+  opacity: 2;
+  background-color: #fff;
+  width: calc(100% - 60px);
+  max-width: 800px;
+  padding: 30px;
+  margin: auto;
+}
+.filters__title{
+  margin-bottom: 20px;
+}
+.filters__items{
+  padding-top: 20px;
+  border-top: 2px solid #525252;
+}
+.filters__item{
+  cursor: pointer;
+  font-weight: 600;
+  padding: 15px 25px;
+}
+.filters__item--active{
+  color: #3360a8;
+}
+
+.blog__btns{
+  margin-top: 50px;
+  min-width: 355px;
+}
+
+.blog__btn{
+  width: 150px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.blog__btn::before{
+  border: none;
+}
+
+.blog__btn-unaccept{
+  color: #525252;
+  margin-left: 50px;
+  border: 2px solid #525252;
+  background-color: inherit;
+}
+
+.blog__btn-unaccept:hover{
+  color: #000;
+  background-color: #ffc21a;
+  border: 2px solid #ffc21a;
+}
+
+
+@media screen and (max-width: 1280px){
+  .email-input-inner{
+    width: 345px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .email-input-inner{
+    width: 410px;
+  }
+
+  .blog-item{
+    width: calc(50% - 15px);
+  }
+
+  .blog-item__text p{
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .blog-top{
+    flex-wrap: wrap;
+  }
+
+  .blog-top__text{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .blog-item{
+    width: 100%;
+  }
+
+  .blog-item a{
+    min-height: 250px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .blog__btns{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blog__btn{
+    width: calc(100% - 100px);
+  }
+  .blog__btn-unaccept{
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .blog-item a{
+    min-height: 300px;
+  }
+
+}
